@@ -5,6 +5,10 @@ New-Item -ItemType Directory -Force -Path "$base\backend" | Out-Null
 New-Item -ItemType Directory -Force -Path "$base\frontend\public" | Out-Null
 New-Item -ItemType Directory -Force -Path "$base\frontend\src" | Out-Null
 
+#New-Item -ItemType Directory -Force -Path "$base\backend" | Out-Null
+#New-Item -ItemType Directory -Force -Path "$base\frontend\public" | Out-Null
+#New-Item -ItemType Directory -Force -Path "$base\frontend\src" | Out-Null
+
 # backend/package.json
 $backendPackage = @'
 {
