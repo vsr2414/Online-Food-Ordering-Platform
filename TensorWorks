@@ -331,6 +331,8 @@ function App(){
           </ul>
         </div>
 
+        //TensorWorks react Components
+
         <div style={{width:320, borderLeft:'1px solid #ccc', paddingLeft:20}}>
           <h3>Cart</h3>
           <ul>
@@ -397,6 +399,22 @@ cd "D:\Online Food Ordering Platform\Online-Food-Ordering-Platform\backend"
 npm install
 node server.js
 // Backend runs at http://localhost:4000
+
+2) Frontend (in separate terminal)
+cd "D:\Online Food Ordering Platform\Online-Food-Ordering-Platform\frontend"
+npm install
+npm start
+// React dev server will open (http://localhost:3000).
+
+Notes:
+- Replace SECRET in backend/server.js for production.
+- This is a demo starter: add validations, secure headers, and production build steps.
+'@
+$readme | Out-File -FilePath "$base\README.md" -Encoding utf8
+
+Write-Host "Files created under $base`."
+Write-Host "To run the script output: powershell -ExecutionPolicy Bypass -File `"$($MyInvocation.MyCommand.Path)`""
+'``
 
 2) Frontend (in separate terminal)
 cd "D:\Online Food Ordering Platform\Online-Food-Ordering-Platform\frontend"
